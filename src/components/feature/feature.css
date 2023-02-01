@@ -3,9 +3,9 @@
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  justify-content: space-between;
 
   margin: 1rem;
+
 }
 
 .gpt3__features-container__feature-title {
@@ -26,7 +26,7 @@ margin-right: 2rem;
 }
 
 .gpt3__features-container__feature-title div {
-  width: 38px;
+  width: 75px;
   height: 3px;
   background: var(--gradient-bar);
   box-shadow: 0 4px 4px rgba(0,0,0,0.25);
@@ -36,7 +36,7 @@ margin-right: 2rem;
 
 .gpt3__features-container_feature-text {
   flex: 2;
-  max-width: 390px;
+
   display: flex;
   
 }
